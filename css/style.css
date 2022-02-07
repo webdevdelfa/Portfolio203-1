@@ -40,6 +40,44 @@ h3 {
     padding: 0 5px;
 }
 
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .header__container {
     max-width: 1032px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__list {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav__item {
+    margin-left: 33px;
+}
+
+.about__container {
+    display: flex;
+}
+
+.about__info {
+    width: 59%;
+}
+
+.about__avatar {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
