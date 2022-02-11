@@ -66,7 +66,7 @@ h3 {
 }
 
 .about__info {
-    width: 59%;
+    padding-right: 12%;
 }
 
 .about__avatar {
@@ -74,6 +74,7 @@ h3 {
     height: 243px;
     border-radius: 50%;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .about__img {
