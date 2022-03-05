@@ -134,6 +134,27 @@ h3 {
     object-fit: cover;
 }
 
+@media (max-width: 480px) {
+    .about__container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about__avatar {
+        width: 170px;
+        height: 170px;
+    }
+
+    .about__info {
+        padding: 0 24px;
+    }
+
+    .about__title {
+        font-size: 32px;
+    }
+}
+
 .recent-posts {
     background-color: #EDF7FA;
     padding: 27px 0px 32px;
@@ -165,4 +186,29 @@ h3 {
 
 .separator {
     margin: 0px 26px;
+}
+
+@media (max-width: 480px) {
+    .recent-posts__container {
+        padding: 0 10px;
+    }
+
+    .recent-posts__top {
+        justify-content: center;
+    }
+
+    .recent-posts__link {
+        display: none;
+    }
+
+    .recent-posts__articles {
+        flex-direction: column;
+    }
+
+    .recent-posts__article {
+        width: 100%;
+        margin-right: 0;
+        padding: 12px 22px 20px;
+        margin-bottom: 17px;
+    }
 }
