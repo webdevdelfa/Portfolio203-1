@@ -262,3 +262,50 @@ h3 {
         flex: 0 0 100%;
     }
 }
+
+.footer {
+    padding: 51px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__social-list {
+    display: flex;
+}
+
+.footer__social-item {
+    margin-right: 35px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer__social-item:last-child {
+    margin-right: 0;
+}
+
+.footer__social-link {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.footer__social-link--fb {
+    background-image: url(../img/icons/fb.png);
+}
+
+.footer__social-link--insta {
+    background-image: url(../img/icons/insta.png);
+}
+
+.footer__social-link--tw {
+    background-image: url(../img/icons/twitter.png);
+}
+
+.footer__social-link--in {
+    background-image: url(../img/icons/Linkedin.png);
+}
