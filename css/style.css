@@ -37,6 +37,16 @@ h3 {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.nav__item {
+    margin-left: 33px;
 }
 
 .container {
@@ -276,9 +286,10 @@ h3 {
 }
 
 .footer__social-item {
-    margin-right: 35px;
     width: 30px;
     height: 30px;
+    margin-right: 35px;
+    font-size: 0;
 }
 
 .footer__social-item:last-child {
@@ -287,25 +298,24 @@ h3 {
 
 .footer__social-link {
     display: block;
-    background-repeat: no-repeat;
-    background-size: contain;
-    font-size: 0px;
     height: 100%;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.footer__social-link--fb {
-    background-image: url(../img/icons/fb.png);
+.vk {
+    background-image: url(../img/icons/vk.png);
 }
 
-.footer__social-link--insta {
-    background-image: url(../img/icons/insta.png);
+.ok {
+    background-image: url(../img/icons/ok.png);
 }
 
-.footer__social-link--tw {
-    background-image: url(../img/icons/twitter.png);
+.github {
+    background-image: url(../img/icons/github.png);
 }
 
-.footer__social-link--in {
-    background-image: url(../img/icons/Linkedin.png);
+.telegram {
+    background-image: url(../img/icons/telegram.png);
 }
